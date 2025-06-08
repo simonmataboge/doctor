@@ -1,0 +1,1276 @@
+
+body
+{
+	background-color:#003366;
+}
+.intro
+{
+    
+    color:white;
+    font-size: 14px;
+    padding: 10px 0 0 90px;
+    background-color: black;
+}
+.socials
+{
+	
+	padding:10px;
+	margin-top:-30px;
+	color:;
+    margin-left: 600px;
+	
+
+}
+@media screen and (max-width:1000px ){
+	.socials {
+        margin-top: -65px;
+	}
+}
+.socials .fa
+{
+	
+	color:white;
+	margin-top:0px;
+    background-color:;
+}
+@media screen and (max-width:1000px ){
+	.socials .fa {
+        padding-left: 10px;
+        background-color: black;
+	}
+}
+@media screen and (max-width:400px ){
+	.socials .fa {
+        padding-left: 5px;
+	}
+}
+.logo
+{
+	float:left;
+	color:black;
+	font-size:30px;
+	font-weight:bolder;
+	margin-top:0px;
+	margin-left:-10px;
+    background-color:;
+
+}
+@media screen and (max-width:1000px ){
+	.logo {
+        width: 490px;
+        margin-top: 0px;
+	}
+}
+.logo img 
+{
+    margin-left:10px;
+    height:40px;
+    width:60px;
+    margin-top:0px;
+}
+@media screen and (max-width:1000px ){
+	.logo img {
+        margin-left: 0px;
+        margin-top: -10px;
+	}
+}
+
+.buy-btn
+{
+    float: ;
+    color: white;
+    border-radius: 200px;
+    padding: 10px 40px;
+    width: 140px;
+    background-color: powderblue;
+}
+.buy-btn:hover
+{
+    text-decoration: none;
+    color: powderblue;
+    background-color: black;
+}
+.header
+{
+	
+	padding:10px;
+	padding-top:0px;
+	color:skyblue;
+	background-color: ;
+	width:850px;
+    margin-top: 0px;
+    margin-left: 80px;
+	height: 47px;
+    font-size: 14px;
+
+}
+@media screen and (max-width:1000px ){
+	.header {
+        width: 490px;
+        margin-left: 0px;
+	}
+}
+.header a
+{
+	padding-left:10px;
+	color:black ;
+	margin-top:20px;
+    
+    
+}
+.header a:hover{
+    text-decoration: none;
+    color:powderblue;
+}
+.menu  {
+    padding-top: 10px;
+    margin-left: 150px;
+
+}
+
+
+
+@media screen and (max-width:400px ){
+	.header a {
+        padding-left: 5px;
+	}
+}
+
+
+.sidepanel 
+{
+    display: none;
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel  
+            {
+              width:0px;
+              position:fixed;
+              z-index: 1;
+              height: 280px;
+              top: 100px;
+              margin-left: 10px;
+              background-color: goldenrod;
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 10px;
+                border-radius: 10px;
+                display: block;
+            }
+}
+
+.sidepanel a {
+  padding:5px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display:block;
+  transition: 0.3s;
+    margin-top: 0px;
+    text-align: ;
+}
+
+.sidepanel a:hover {
+  color: aqua;
+}
+
+.sidepanel .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+    margin-top: -10px;
+}
+
+.openbtn 
+{
+    display: none;
+
+ }
+@media screen and (max-width:1000px ){
+	.openbtn{
+        margin-left: 150px;
+        margin-top: -20px;
+ font-size: 20px;
+  cursor: pointer;
+  color: #FF9900;
+  border: none;
+    padding-top: 20px;       
+	}
+}
+.openbtn:hover 
+{
+  background-color: transparent;
+}
+
+
+
+.box
+{
+    margin-left: 80px;
+    color: goldenrod;
+    margin-top: 50px;
+    width: 850px;
+    font-family: serif;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: thin;
+}
+@media screen and (max-width:1000px ){
+	.box{
+        margin-left: 0px;
+        width: 490px;
+        
+	}
+}
+.box em {
+    float: right;
+    margin-top: -30px;
+    font-size: 10px;
+}
+
+
+#home
+{
+        margin-top: 20px;
+        height: 400px;
+        text-align: ;
+    background: linear-gradient(0deg, powderblue, white 100%);
+ 
+}
+@media screen and (max-width:1000px ){
+	#home {
+        margin-top: 10px;
+	}
+}
+.home
+{
+   
+    margin-left: 40px;
+    width: 400px;
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    margin-top: -40px;
+    
+}
+@media screen and (max-width:1000px ){
+	.home{
+        margin-left: 20px;
+        width: 490px;
+        
+	}
+}
+#home h1, #promo h1, #about h1, #stats h1, #contacts h1, #testimonials h1, #growth h1, #services h1, #blog h1
+{
+    font-size: 100px;
+    font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px powderblue, 0 0 5px darkblue;
+    margin-left: 60px;
+    opacity: 0.2;
+      
+}
+h3
+{
+    font-size: 30px;
+    font-family:serif;
+}
+b{
+    color: goldenrod;
+    font-weight:lighter;
+    font-size: 24px;
+}
+.home p
+{
+
+}
+
+@media screen and (max-width:1000px ){
+	.home p{
+        margin-left: 0px;
+        width: 440px;
+        
+	}
+}
+.home img
+{
+    width: 200px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+@media screen and (max-width:1000px ){
+	.home img {
+        margin-top: -50px;
+	}
+}
+
+#benefit .benefits-box-container
+
+{
+    width: 170px;
+}
+#benefit .benefit
+{
+    margin-left: 150px;
+}
+#benefit .benefits-box-container p
+
+{
+   margin-top: -26px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+
+
+
+
+#about
+{
+   margin-top: 40px; 
+    height: 500px;
+}
+@media screen and (max-width:1000px ){
+	#about{
+        width: 490px;
+        padding: 10px;
+        margin-top: 200px;
+        
+	}
+}
+.about
+{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+@media screen and (max-width:1000px ){
+	.about{
+        margin-left: 10px;
+        width: 490px;
+        padding: 10px;
+        
+	}
+}
+.about-box
+{
+    display: inline-block;
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 0px;
+    
+}
+@media screen and (max-width:1000px ){
+	.about-box {
+        margin-left: 0px;
+	}
+}
+p
+{
+font-size: 14px;
+}
+#about img
+{
+    height: 180px;
+    width: 170px;
+    
+}
+@media screen and (max-width:1000px ){
+	#about img {
+        margin-left: -10px;
+        width: 450px;
+        height: 300px;
+	}
+}
+#about a
+{
+    color: black;
+}
+#about a:hover
+{
+    color: powderblue;
+    text-decoration:none;
+}
+.benefit
+{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+@media screen and (max-width:1000px ){
+	.benefit{
+        margin-left: 10px;
+        margin-top: -80px;
+	}
+}
+.benefits-box
+{
+    width: 170px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+   
+
+}
+@media screen and (max-width:1000px ){
+	.benefits-box{
+        width: 180px;
+        border:none;
+        
+	}
+}
+.benefits-box-container
+{
+    width: 80px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.benefits-box-container .fa
+{
+    
+    color: goldenrod;
+    font-size: 30px;
+}
+#about p
+{
+    font-size: 12px;
+    color: grey;
+}
+#about .buy-btn
+{
+    font-size: 12px;
+}
+
+.collapsible {
+  
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 330px;
+  border: none;
+  margin-top: 10px;
+  text-align: left;
+  outline: none;
+}
+@media screen and (max-width:1000px ) {
+    .collapsible {
+        margin-left: 10px;
+        width: 440px;
+    }
+}
+
+
+
+
+#branding
+{
+        margin-top: 0px;
+        height: 400px;
+        text-align: ;
+    color: ;
+}
+.branding
+{
+  
+    padding: 50px;
+}
+@media screen and (max-width:1000px ){
+	.branding {
+        margin-top: -160px;
+	}
+}
+.home-brand
+{
+   
+    margin-left: 15px;
+    width: 420px;
+    display: inline-block;
+    height: 300px;
+     margin-top: -400px;
+    
+}
+@media screen and (max-width:1000px ){
+	.home-brand{
+        margin-left: -40px;
+        width: 490px;
+        margin-top: -100px;
+        
+	}
+}
+.home-brand-box
+{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.home-brand .buy-btn
+{
+    margin-top: -100px;
+    color: white;
+}
+.home-brand-box p
+{
+    margin-top: 10px;
+    margin-left: -100px;
+    color: white;
+} 
+
+
+
+
+
+#promo
+{
+    margin-top: 10px;
+    height: 500px;
+}
+@media screen and (max-width:1000px ){
+	#promo {
+        margin-top: 220px;
+	}
+}
+.promo
+{
+    margin-left: 100px;
+    padding: 50px;
+    margin-top: -130px;
+}
+
+
+@media screen and (max-width:1000px ){
+	#promo .benefit {
+        margin-left: -20px;
+        height: 300px;
+	}
+}
+#promo .benefits-box
+{
+    width: 230px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+#promo .benefits-box:hover
+{
+    text-decoration: none;
+    
+}
+
+.benefit-text
+{
+    background-color:white;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 20px;
+    width: 190px;
+    padding: 10px;
+    
+   
+}
+.benefit-text h6
+{
+    color: black;
+}
+.benefit-text p
+{
+    font-size: 12px;
+    color: grey;
+}
+#promo .benefits-box-container, #services .benefits-box-container
+{
+    width: 130px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5px;
+    text-align: center;
+}
+#promo .benefits-box-container .fa, #services .benefits-box-container .fa
+{
+    font-size: 50px;
+    color: goldenrod;    
+}
+.about-box input
+{
+  	padding:10px;
+    height:30px;
+    width: 230px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-style:none;
+    border-bottom-style: solid;
+    background-color: aqua;
+    border-width: medium;
+}
+.dropdown
+{
+  	padding:10px;
+    height:20px;
+    width: 230px;
+    padding-bottom: 24px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-style:none;
+    border-bottom-style: solid;
+    background-color: aqua;
+    border-color: grey;
+    border-width: medium;
+}
+.dropdown a
+{
+    font-size: 14px;
+    color: grey;
+}
+.dropdown a:hover
+{
+    
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+
+
+#services
+{
+    margin-top: 10px;
+    height: 500px;
+}
+@media screen and (max-width:1000px ){
+	#services {
+        margin-top: 220px;
+	}
+}
+.services
+{
+    margin-left: 10px;
+    padding: 50px;
+    margin-top: -130px;
+}
+
+
+@media screen and (max-width:1000px ){
+	#services .benefit {
+        margin-left: -20px;
+        height: 300px;
+	}
+}
+.service
+{
+    margin-left: -100px;
+}
+#services .benefits-box
+{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+#services .benefits-box:hover
+{
+    text-decoration: none;
+    
+}
+#services .benefit-text
+{
+    background-color:white;
+    text-align:left;
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 160px;
+    padding: 10px;
+    
+   
+}
+#services .benefit-text .fa
+{
+    font-size: 30px;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#stats
+{
+   margin-top: 50px; 
+    height: 520px;
+}
+@media screen and (max-width:1000px ){
+	#stats{
+        width: 490px;
+        padding: 10px;
+        margin-top: 200px;
+        
+	}
+}
+.stats
+{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+@media screen and (max-width:1000px ){
+	.stats{
+        margin-left: 10px;
+        width: 490px;
+        padding: 10px;
+        
+	}
+}
+#stats .form-msg
+{
+    background-color: aqua;
+    width: 250px;
+    height: 280px;
+}
+
+#stats .benefits-box
+{
+    width: 170px;
+    text-align: center;
+}
+
+#stats .fa
+{
+    font-size: 50px;
+    color: goldenrod;
+    
+}
+
+#stats h6
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+#testimonials
+{
+    margin-top: 10px;
+    height: 400px;
+}
+
+.testimonials
+{
+    margin-top: -80px;
+    margin-left: 150px;
+    
+}
+.testimonials-box
+{
+    display: inline-block;
+    width: 340px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 160px;
+    box-shadow: 0 0.1px grey ;
+    
+}
+.testimonials-box img
+{
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
+.textbox
+{
+    margin-left: 110px;
+    margin-top: -100px;
+}
+.textbox p
+{
+    color: grey;
+    font-size: 12px;
+}
+
+.textbox img
+{
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+
+#team
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.team
+{
+    
+}
+@media screen and (max-width:1000px ){
+	#team  {
+       margin-top: -200px;
+	}
+}
+#team .about-box img
+{
+    height: 350px;
+    width: 350px;
+    margin-top: -180px;
+    margin-left: -140px;
+}
+@media screen and (max-width:1000px ){
+	#team .about-box img {
+        width: 570px;
+	}
+}
+#team .benefits-box img
+{
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top:0px;
+}
+#team .about-box
+{
+    margin-top: 100px;
+}
+@media screen and (max-width:1000px ){
+	#team .about-box {
+        margin-left: -50px;
+        
+	}
+}
+
+@media screen and (max-width:1000px ){
+	#team .benefits-box img {
+       width: 180px;
+	}
+}
+
+
+@media screen and (max-width:1000px ){
+	#team .about {
+       margin-top: 180px;
+	}
+}
+#team .benefit
+{
+    margin-left: -170px;
+}
+
+
+
+
+
+
+#growth
+{
+
+}
+@media screen and (max-width:1000px ){
+	#growth{
+        padding: 10px;
+        
+        
+	}
+}
+.growth
+{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+@media screen and (max-width:1000px ){
+	.growth{
+        margin-left: -10px;
+        width: 490px;
+        padding: 10px;
+        
+	}
+}
+.grow
+{
+    margin-left: -20px;
+}
+.growth-box
+{
+    display: inline-block;
+    width: 250px;
+    height: 280px;
+    width: 230px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background-color:  linear-gradient(90deg, #fff, #ddd);
+   
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:1000px ){
+	.growth-box{
+        margin-left: 40px;
+        width: 300px;
+        text-align: center;
+        
+	}
+}
+
+
+#growth ul li
+{
+    margin-left: -40px;
+    list-style: none;
+}
+#growth .benefits-box-container
+{
+    width: 140px;
+}
+.benefits-box-container img
+{
+    height: 40px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blog
+{
+    margin-top: 10px;
+    height: 400px;
+    
+}
+@media screen and (max-width:1000px ){
+	#blog {
+        margin-top:50px;
+	}
+}
+.blog
+{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#blog .benefits-box 
+{
+    width: 190px;
+    
+}
+#blog .benefits-box img
+{
+    width: 190px;
+    height: 200px;
+    margin-left: 
+}
+#blog .benefit-text
+
+{
+    margin-top: -30px;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+#blog .benefit-text a
+{
+    color: red;
+}
+
+#blog .benefit-text a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+#blog .benefit 
+{
+    margin-left: 30px;
+    
+}
+
+
+
+#contacts
+{
+
+    margin-top: 50px;
+}
+@media screen and (max-width:1000px ){
+	#contacts{
+        padding: 10px;
+        margin-top: 400px;
+        
+	}
+}
+.contacts
+{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+@media screen and (max-width:1000px ){
+	.contacts{
+        margin-left: 10px;
+        width: 490px;
+        padding: 10px;
+        
+	}
+}
+
+.contacts-box
+{
+    display: inline-block;
+    width: 300px;
+}
+@media screen and (max-width:1000px ){
+	.contacts-box{
+        
+        width: 440px;
+        
+	}
+}
+.contacts-box img
+{
+    height: 350px;
+    margin-top: -200px;
+    
+ 
+}
+.form-msg
+{
+
+    padding:10px;
+    text-align:;
+    height:400px;
+    margin-left: 70px;
+    width: 300px;
+    font-size: 14px;
+    margin-top: 10px;
+  
+}
+@media screen and (max-width:1000px ){
+	.form-msg{
+        margin-top: 0px;
+        margin-left: -20px;
+      
+        
+	}
+}
+form
+{
+    
+    margin-left: -110px;
+    margin-top: 0px;
+}
+
+input
+{
+  	padding:10px;
+   height:30px;
+   width: 130px;
+   display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-style:none;
+    border-width: medium;
+    border-bottom-style: solid;
+}
+#contacts .dropdown
+{
+  	padding:10px;
+    height:20px;
+    width: 130px;
+    padding-bottom: 24px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-style:none;
+    border-bottom-style: solid;
+    background-color: transparent;
+    border-color: grey;
+    border-width: medium;
+}
+.col-75
+{
+
+  margin-top: 10px; 
+    display: inline-block;
+  margin-left:10px;
+  
+}
+.post-box{
+    margin-left: 100px;
+}
+
+.form-group{
+    margin-left: 110px;
+    margin-top: 10px;
+    
+}
+button
+{
+    float: ;
+    color: white;
+    border-radius: 200px;
+    padding: 10px 40px;
+    width: 140px;
+    background-color: powderblue;
+    border-color: powderblue;
+
+}
+
+
+
+#footer
+{
+    background-color: navy;
+    margin-top: 1px;
+}
+.footer
+{
+    margin-left: 150px;
+    
+}
+.footer-box
+{
+    
+}
+.footer-content
+{
+    display: inline-block;
+    width: 260px;
+}
+.footer-content img
+{
+    margin-left:10px;
+    height:50px;
+    width:90px;
+    margin-top:0px; 
+}
+.footer-content em
+{
+   color: white;
+    font-size: 12px;
+}
+
+
+.footer-content  .form-group{
+    margin-left: 90px;
+    margin-top: -40px;
+    
+}
+.footer-content  button
+{
+    float: ;
+    color: white;
+    padding: 6px ;
+    width: 40px;
+    background-color: powderblue;
+    border-color: powderblue;
+    margin-left: 90px;
+    margin-top: 5px;
+
+}
+
+.footer-content input
+{
+  	padding:10px;
+   height:31px;
+   width: 180px;
+   display: inline-block;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+.footer-content label{
+    margin-left: -60px;
+    color: white;
+}
+
+
+#foot
+{
+    background-color: navy;
+    margin-top: 1px;
+    
+}
+.foot
+{
+    margin-left: 150px;
+    color: white;
+    
+}
+.foot-box
+{
+    margin-top: 10px;
+    display: inline-block;
+    width: 180px;
+}
+
+.foot a
+{
+    color: white;
+    
+}
+.foot a:hover
+{
+    color: powderblue;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
